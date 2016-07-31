@@ -60,7 +60,7 @@
   <object-name>Steering</object-name>
   <type>rotate</type>
   <property>controls/flight/aileron</property>
-<factor>100</factor>
+<factor>80</factor>
   <offset-deg>0</offset-deg>
   <center>
    <x-m> -0.38582 </x-m>

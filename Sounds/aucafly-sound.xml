@@ -125,8 +125,8 @@
       <max-dist>1000</max-dist>
     </squeal>
 <click>
-      <name>frein parc on</name>
-      <path>Aircraft/AUCAFLYCORE/aucafly-tirette.wav</path>
+      <name>brake-parking on</name>
+      <path>Aircraft/AUCAFLYCORE/Park-Break-On.wav</path>
        <condition>
           <property>controls/gear/brake-parking</property>
     </condition>    
@@ -138,8 +138,8 @@
     </click>
 
     <click>
-      <name>frein parc off</name>
-      <path>Aircraft/AUCAFLYCORE/aucafly-tirette.wav</path>
+      <name>brake-parking off</name>
+      <path>Aircraft/AUCAFLYCORE/Park-Break-Off.wav</path>
        <condition>
          <not>
              <property>controls/gear/brake-parking</property>
