@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+<sim>
+
+	<description>Panto RS1</description>
+	<author>Aucafly</author>
+	<status>Ground Vehicle</status>
+	<flight-model>yasim</flight-model>
+	<aero>rs</aero>
+<startup>
+      <splash-texture>Aircraft/Panto-RS1/splash.png</splash-texture>
+    </startup> 
+	<model>
+		<path>Aircraft/Panto-RS1/Models/Panto-RS1.xml</path>
+	</model> 
+<sound>
+      <path>Aircraft/Panto-RS1/Sounds/aucafly-sound.xml</path>
+    </sound>
+
+	<view n="0">
+		<internal archive="y">true</internal>
+		<config>
+			<x-offset-m archive="y" type="double">-0.46522</x-offset-m><!--blender y-->
+			<y-offset-m archive="y" type="double">1.8</y-offset-m><!-- blender z-->
+			<z-offset-m archive="y" type="double">0.2</z-offset-m><!-- blender x -->
+			<pitch-offset-deg>-10.0</pitch-offset-deg>
+<default-field-of-view-deg type="double">65</default-field-of-view-deg>
+			<field-of-view>65</field-of-view>
+		</config>
+	</view>
+
+	<view n="1">
+		<config>
+			<target-y-offset-m archive="y" type="double">1.6</target-y-offset-m>
+		</config>
+	</view>
+	
+	<view n="2">
+		<config>
+			<target-y-offset-m archive="y" type="double">1.6</target-y-offset-m>
+		</config>
+	</view>
+	
+	<view n="3">
+		<config>
+			<target-y-offset-m archive="y" type="double">1.6</target-y-offset-m>
+		</config>
+	</view>
+	
+	<view n="4">
+		<config>
+			<target-y-offset-m archive="y" type="double">1.6</target-y-offset-m>
+		</config>
+	</view>
+	
+	<view n="5">
+		<config>
+			<target-y-offset-m archive="y" type="double">1.6</target-y-offset-m>
+		</config>
+	</view>
+	
+	<view n="6">
+		<config>
+			<target-y-offset-m archive="y" type="double">1.6</target-y-offset-m>
+		</config>
+	</view>
+
+	<hud>
+		<enable3d>false</enable3d>
+	</hud>
+<help>
+      <title>RS System</title>
+      <text>In order to make this vehicle drive on most terrains, we fit it with a very powerful engine and reduce its brake friction.  As the result, the braking system of this vehicle is not great.  We recommend you to drive slowly at all time to avoid any crash.</text>
+         </help>
+<multiplay>
+	 <generic>
+	 <float n="0" alias="/sim/model/door-positions/door/position-norm" />
+</generic>
+	</multiplay>
+</sim>
+
+<engines>
+	<engine n="0">
+		<rpm type="double">2</rpm>
+	</engine>
+	<engine n="1">
+		<rpm type="double">2</rpm>
+	</engine>
+</engines>
+
+<controls>
+	<flight>
+		<aileron alias="/controls/flight/rudder" />
+	</flight>
+</controls>
+<nasal>
+	<aucafly>
+		<file>Aircraft/Panto-RS1/Nasal/doors.nas</file>        
+	</aucafly>
+</nasal>
+
+</PropertyList>
+
+
+
+
