@@ -4,7 +4,7 @@ We would like to thank you for downloading our Panto-RS1.  This is without a dou
 
 Panto-RS1 is licensed under GPL.
 
-All our vehicles with the RS badge is capable of driving on most terrains.  Theoretically, it can drive on water as well, but sometimes it will still crash in Flightgear.  Therefore, we strongly suggest you to drive around water instead.
+All our vehicles is capable of driving on most terrains.  Theoretically, it can drive on water as well, but sometimes it will still crash in Flightgear.  Therefore, we strongly suggest you to drive around water instead.
 
 Please visit our website or Github and download our add-on folder (Version 2016.2.1 or newer), which includes sound files and pushback model.
 
@@ -14,6 +14,6 @@ We hope you enjoy our vehicle and we are looking forward to seeing snapshots and
 
 Best regards,
 
-Aucafly Team
+Bulldog RS (Part of Aucafly Group) Team
 
-Website: https://aucafly.wordpress.com/
+Website: https://bulldogrs.wordpress.com/

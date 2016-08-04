@@ -4,7 +4,7 @@
 <sim>
 
 	<description>Panto RS1</description>
-	<author>Aucafly</author>
+	<author>Bulldog RS (Aucafly)</author>
 	<status>Ground Vehicle</status>
 	<flight-model>yasim</flight-model>
 	<aero>rs</aero>
