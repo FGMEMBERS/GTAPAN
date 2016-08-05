@@ -27,6 +27,19 @@
 			<pitch-offset-deg>-10.0</pitch-offset-deg>
 <default-field-of-view-deg type="double">65</default-field-of-view-deg>
 			<field-of-view>65</field-of-view>
+<limits>
+      <enabled type="bool">true</enabled>
+      <left>
+        <heading-max-deg type="double">60</heading-max-deg>
+        <x-offset-max-m type="double">0.15</x-offset-max-m>
+        <x-offset-threshold-deg type="double">65</x-offset-threshold-deg>
+      </left>
+      <right>
+        <heading-max-deg type="double">60</heading-max-deg>
+        <x-offset-max-m type="double">0.15</x-offset-max-m>
+        <x-offset-threshold-deg type="double">65</x-offset-threshold-deg>
+      </right>
+    </limits>
 		</config>
 	</view>
 
