@@ -161,5 +161,26 @@
       <z-m> 0.53673 </z-m>
     </offsets>
   </model>
+<animation>
+ <type>material</type>
+ <object-name>Panto-RS1-Left</object-name>
+ <emission>
+  <red>1.0</red>
+  <green>0.8</green>
+  <blue>0.2</blue>
+  <factor-prop>sim/model/lights/indicator-left/state</factor-prop>
+ </emission>
+</animation>
+
+<animation>
+ <type>material</type>
+ <object-name>Panto-RS1-Right</object-name>
+ <emission>
+  <red>1.0</red>
+  <green>0.8</green>
+  <blue>0.2</blue>
+  <factor-prop>sim/model/lights/indicator-right/state</factor-prop>
+ </emission>
+</animation>
 </PropertyList>
  
