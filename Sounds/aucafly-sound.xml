@@ -59,5 +59,19 @@
        <reference-dist>100</reference-dist>
     <max-dist>1000</max-dist>      
     </click>
+<click>
+      <name>indicator left</name>
+	<mode>looped</mode>
+      <path>Aircraft/AUCAFLYCORE/indicator.wav</path>
+       <condition>
+             <property>sim/model/lights/indicator-left/state</property>
+    </condition>    
+      <volume>
+           <factor>2.0</factor>
+      </volume>
+       <reference-dist>100</reference-dist>
+    <max-dist>1000</max-dist>      
+    </click>
+
  </fx>
 </PropertyList>

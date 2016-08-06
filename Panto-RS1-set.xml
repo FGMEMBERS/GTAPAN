@@ -84,11 +84,18 @@
 	</hud>
 <help>
       <title>RS System</title>
-      <text>In order to make this vehicle drive on most terrains, we fit it with a very powerful engine and reduce its brake friction.  As the result, the braking system of this vehicle is not great.  We recommend you to drive slowly at all time to avoid any crash.  Note: Key M to engage reverse and m to disengage reverse</text>
+      <text>In order to make this vehicle drive on most terrains, we fit it with a very powerful engine and reduce its brake friction.  As the result, the braking system of this vehicle is not great.  We recommend you to drive slowly at all time to avoid any crash.  Note: Key M to engage reverse and m to disengage reverse. Key [ to toggle left indicator and key ] to toggle right indicator.</text>
          </help>
 <multiplay>
 	 <generic>
 	 <float n="0" alias="/sim/model/door-positions/door/position-norm" />
+	<float n="1" alias="/gear/gear[0]/rollspeed-ms"/> <!--wheel rotation-->
+	  <float n="2" alias="/gear/gear[1]/rollspeed-ms"/> <!--wheel rotation-->
+	  <float n="3" alias="/gear/gear[2]/rollspeed-ms"/> <!--wheel rotation-->
+	  <float n="4" alias="/gear/gear[3]/rollspeed-ms"/> <!--wheel rotation-->
+	  <float n="5" alias="/controls/flight/aileron"/> <!--wheel steering-->
+	<float n="6" alias="/sim/model/lights/indicator-left/state"/>
+	<float n="7" alias="/sim/model/lights/indicator-right/state"/>
 </generic>
 	</multiplay>
 </sim>
@@ -128,6 +135,22 @@
             <value type="double">1.0</value>
           </binding>
         </key>
+		<key n="91"> 
+			<name>[</name>
+			<desc>Toggle left indicator lights</desc>
+			<binding> 
+				<command>property-toggle</command>
+				<property>/controls/lighting/indicator-left</property>
+			</binding>
+		</key>
+		<key n="93"> 
+			<name>]</name>
+			<desc>Toggle right indicator lights</desc>
+			<binding> 
+				<command>property-toggle</command>
+				<property>/controls/lighting/indicator-right</property>
+			</binding>
+		</key>
 	</keyboard>
 </input>
 <nasal>
