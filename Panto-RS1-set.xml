@@ -13,6 +13,9 @@
     </startup> 
 	<model>
 		<path>Aircraft/Panto-RS1/Models/Panto-RS1.xml</path>
+	<livery>
+      <file type="string"/>
+    </livery>
 	</model> 
 <sound>
       <path>Aircraft/Panto-RS1/Sounds/aucafly-sound.xml</path>
@@ -98,6 +101,21 @@
 	<float n="7" alias="/sim/model/lights/indicator-right/state"/>
 </generic>
 	</multiplay>
+<menubar>
+    <default>
+      <menu n="100">
+        <label>Bulldog RS</label>
+        <enabled type="bool">true</enabled>
+        <item>
+          <label>Select Livery</label>
+          <binding>
+            <command>nasal</command>
+            <script>aircraft.livery.dialog.open();</script>
+          </binding>
+        </item>
+      </menu>
+    </default>
+  </menubar>
 </sim>
 
 <engines>
@@ -155,7 +173,7 @@
 </input>
 <nasal>
 	<aucafly>
-		<file>Aircraft/Panto-RS1/Nasal/doors.nas</file>        
+		<file>Aircraft/Panto-RS1/Nasal/bulldogrs.nas</file>        
 	</aucafly>
 </nasal>
 

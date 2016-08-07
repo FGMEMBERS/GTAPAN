@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<PropertyList>
+
+<sim>
+  <model>
+    <livery>
+      <name type="string">Liv12</name>
+      <texture>Liveries/Liv12.png</texture>
+    </livery>
+  </model>
+</sim>
+
+</PropertyList>
