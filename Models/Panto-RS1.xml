@@ -1,5 +1,22 @@
 <PropertyList>
- 
+ <nasal>
+  <load>
+    <!--
+      ##############################################################################
+      # The on-load Nasal is not executed when this file is loaded as the user
+      # aircraft. The code is only executed if the file is loaded for a remote
+      # aircraft in Multi-Player mode (MP)
+      ##############################################################################
+    -->
+    <![CDATA[
+      var livery_update = aircraft.livery_update.new("Aircraft/Panto-RS1/Models/Liveries");
+    ]]>
+    </load>
+  
+  <unload><![CDATA[
+    livery_update.stop();
+  ]]></unload>
+</nasal>
 <path>Panto-RS1.ac</path>
 <!-- ========== Effects ========= -->
 <effect>
@@ -7,6 +24,14 @@
  <object-name>Panto-RS1-Window</object-name>
 <object-name>D3</object-name>
 </effect>
+<animation>
+  <type>material</type>
+  <object-name>Panto-RS1-Body</object-name>
+<object-name>D1</object-name>
+  <property-base>sim/model/livery</property-base>
+  <texture-prop>texture</texture-prop>
+  <texture>Liveries/Panto-RS1-Body.png</texture>
+</animation>
 <animation>
   <object-name>FrontWheel</object-name>
   <type>rotate</type>
