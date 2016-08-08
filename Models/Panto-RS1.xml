@@ -20,7 +20,7 @@
 <path>Panto-RS1.ac</path>
 <!-- ========== Effects ========= -->
 <effect>
- <inherits-from>Effects/model-transparent</inherits-from>
+ <inherits-from>Effects/glass</inherits-from>
  <object-name>Panto-RS1-Window</object-name>
 <object-name>D3</object-name>
 </effect>
