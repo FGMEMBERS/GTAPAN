@@ -175,6 +175,9 @@
 	<aucafly>
 		<file>Aircraft/Panto-RS1/Nasal/bulldogrs.nas</file>        
 	</aucafly>
+	<dashboard>
+	<file>Aircraft/Panto-RS1/Models/Instruments/dashboard.nas</file>     
+	</dashboard>   
 </nasal>
 
 </PropertyList>

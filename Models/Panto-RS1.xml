@@ -207,5 +207,13 @@
   <factor-prop>sim/model/lights/indicator-right/state</factor-prop>
  </emission>
 </animation>
+<model>
+    <path>Aircraft/Panto-RS1/Models/Instruments/Dashboard.xml</path>
+    <offsets>
+  <x-m> -0.7937 </x-m>
+   <y-m> -0.48062  </y-m>
+      <z-m> 1.58295 </z-m>
+    </offsets>
+  </model>
 </PropertyList>
  
