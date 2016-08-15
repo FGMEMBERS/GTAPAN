@@ -9,7 +9,7 @@
       ##############################################################################
     -->
     <![CDATA[
-      var livery_update = aircraft.livery_update.new("Aircraft/Panto-RS1/Models/Liveries");
+      var livery_update = aircraft.livery_update.new("Aircraft/Panto-RS1/Models/Maps");
     ]]>
     </load>
   
@@ -26,11 +26,10 @@
 </effect>
 <animation>
   <type>material</type>
-  <object-name>Panto-RS1-Body</object-name>
-<object-name>D1</object-name>
+  <object-name>Panto-RS1-Airport</object-name>
   <property-base>sim/model/livery</property-base>
   <texture-prop>texture</texture-prop>
-  <texture>Liveries/Panto-RS1-Body.png</texture>
+  <texture>Maps/KSFO.png</texture>
 </animation>
 <animation>
   <object-name>FrontWheel</object-name>
@@ -154,43 +153,10 @@
 </axis>
 </animation>
 <animation>
-  <object-name>Spoiler</object-name>
-  <type>translate</type>
- <property>velocities/groundspeed-kt</property>
-<factor>0.0005</factor>
-  <offset-deg>0</offset-deg>
-  <center>
-   <x-m>1.34389</x-m>
-   <y-m>0</y-m>
-   <z-m>2.52429</z-m>
-  </center>
-  <axis>
-   <x>0</x>
-   <y>0</y>
-   <z>1</z>
-  </axis>
- </animation>
-  <model>
-    <path>Aircraft/Panto-RS1/Models/afterburner.xml</path>
-    <offsets>
-      <x-m>  1.85287 </x-m>
-      <y-m> -0.11014 </y-m>
-      <z-m> 0.53673 </z-m>
-    </offsets>
-  </model>
-  <model>
-    <path>Aircraft/Panto-RS1/Models/afterburner.xml</path>
-    <offsets>
-      <x-m>  1.85287 </x-m>
-      <y-m> 0.12295 </y-m>
-      <z-m> 0.53673 </z-m>
-    </offsets>
-  </model>
-<animation>
  <type>material</type>
- <object-name>Panto-RS1-Left</object-name>
+ <object-name>Panto-RS1-Beacon</object-name>
  <emission>
-  <red>1.0</red>
+  <red>2.0</red>
   <green>0.8</green>
   <blue>0.2</blue>
   <factor-prop>sim/model/lights/indicator-left/state</factor-prop>
@@ -199,11 +165,11 @@
 
 <animation>
  <type>material</type>
- <object-name>Panto-RS1-Right</object-name>
+ <object-name>Followme</object-name>
  <emission>
   <red>1.0</red>
-  <green>0.8</green>
-  <blue>0.2</blue>
+  <green>1.0</green>
+  <blue>1.0</blue>
   <factor-prop>sim/model/lights/indicator-right/state</factor-prop>
  </emission>
 </animation>
