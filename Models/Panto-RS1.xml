@@ -295,5 +295,20 @@
         <near-m>2</near-m>
         <far-m>1000</far-m>
     </animation>
+<animation>
+ <type>material</type>
+  <object-name>Panto-RS1-Airport</object-name>
+<condition>
+<greater-than>
+            <property>/sim/time/sun-angle-rad</property>
+            <value>1.57</value>
+         </greater-than>
+</condition>
+ <emission>
+  <red>1.0</red>
+  <green>1.0</green>
+  <blue>1.0</blue>
+ </emission>
+</animation>
 </PropertyList>
  
