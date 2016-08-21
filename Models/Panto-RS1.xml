@@ -98,18 +98,13 @@
   </axis>
  </animation>
 <animation>
- <object-name>Panto-RS1-Brake</object-name>
-<condition>		
-  <less-than-equals>		
-   <property>velocities/groundspeed-kt</property>
-   <value>1</value>
-  </less-than-equals>
- </condition>
  <type>material</type>
- <emission>
+ <object-name>Panto-RS1-Brake</object-name>
+<emission>
   <red>4.0</red>
   <green>0.0</green>
   <blue>0.0</blue>
+  <factor-prop>/controls/gear/brake-parking</factor-prop>
  </emission>
 </animation>
 <animation>

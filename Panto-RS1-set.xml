@@ -87,7 +87,7 @@
 	</hud>
 <help>
       <title>RS System</title>
-      <text>In order to make this vehicle drive on most terrains, we fit it with a very powerful engine and reduce its brake friction.  As the result, the braking system of this vehicle is not great.  We recommend you to drive slowly at all time to avoid any crash.  Note: Key M to engage reverse and m to disengage reverse. Key [ to toggle beacons and key ] to toggle Follow Me sign.</text>
+      <text>Shift+B to toggle brakes off and on.  Key M to engage reverse and m to disengage reverse. Key [ to toggle beacons and key ] to toggle Follow Me sign.</text>
          </help>
 <multiplay>
 	 <generic>
@@ -99,6 +99,7 @@
 	  <float n="5" alias="/controls/flight/aileron"/> <!--wheel steering-->
 	<float n="6" alias="/sim/model/lights/indicator-left/state"/>
 	<float n="7" alias="/sim/model/lights/indicator-right/state"/>
+<float n="8" alias="/controls/gear/brake-parking"/>
 </generic>
 	</multiplay>
 <menubar>
@@ -131,6 +132,9 @@
 	<flight>
 		<aileron alias="/controls/flight/rudder" />
 	</flight>
+	<gear>
+		<brake-parking>1</brake-parking>
+	</gear>
 </controls>
 <input>
 	<keyboard>
