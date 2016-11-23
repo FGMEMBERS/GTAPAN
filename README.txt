@@ -1,6 +1,6 @@
 Hi,
 
-We would like to thank you for downloading our GTA V Burrito.  This is without a doubt a project for motorists. 
+We would like to thank you for downloading our GTA V Panto.  This is without a doubt a project for motorists. 
 
 All our vehicles is capable of driving on most terrains.  Theoretically, it can drive on water as well, but sometimes it will still crash in Flightgear.  Therefore, we strongly suggest you to drive around water instead.
 
